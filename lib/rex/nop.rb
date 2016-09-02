@@ -1,4 +1,5 @@
 require "rex/nop/version"
+require "rex/nop/opty2"
 
 module Rex
   module Nop
