@@ -6,8 +6,8 @@ require 'rex/nop/version'
 Gem::Specification.new do |spec|
   spec.name          = "rex-nop"
   spec.version       = Rex::Nop::VERSION
-  spec.authors       = ["David Maloney"]
-  spec.email         = ["DMaloney@rapid7.com"]
+  spec.authors       = ['Metasploit Hackers']
+  spec.email         = ['msfdev@metasploit.com']
 
   spec.summary       = %q{Ruby Exploitation(REX) library for NOP generation. }
   spec.description   = %q{This library contains the opty2 library for dynamic generation of x86 multi-byte NOPs.
@@ -24,9 +24,8 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.2.0'
 
-  spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 
   spec.add_runtime_dependency "rex-arch"
 end
