@@ -1,0 +1,15 @@
+---
+info:
+  title: Rex Nop
+  description: Rex library for dynamic generation of x86 multi-byte NOPs
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/rex-nop
+  x-cortex-tag: rex-nop
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: metasploit
+openapi: 3.0.1
+servers:
+- url: "/"
